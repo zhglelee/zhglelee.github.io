@@ -290,6 +290,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/这个页面怎么显示/index.html",
+  owner: 'zhglelee',
+  repo: 'zhglelee.github.io',
+  oauth: {
+    client_id: '8cceba80d829273c3380',
+    client_secret: 'cb4b8e590c9e23238518c59d986bed5278630fcd',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
